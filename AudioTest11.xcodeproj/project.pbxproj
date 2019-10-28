@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0CAD91523670B76005990FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CAD91423670B76005990FE /* AppDelegate.swift */; };
+		D0CAD91723670B76005990FE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CAD91623670B76005990FE /* SceneDelegate.swift */; };
+		D0CAD91923670B76005990FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CAD91823670B76005990FE /* ViewController.swift */; };
+		D0CAD91C23670B76005990FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0CAD91A23670B76005990FE /* Main.storyboard */; };
+		D0CAD91E23670B78005990FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0CAD91D23670B78005990FE /* Assets.xcassets */; };
+		D0CAD92123670B78005990FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0CAD91F23670B78005990FE /* LaunchScreen.storyboard */; };
+		D0CAD92623670B78005990FE /* AudioTest11 WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D0CAD92523670B78005990FE /* AudioTest11 WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D0CAD92C23670B78005990FE /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0CAD92A23670B78005990FE /* Interface.storyboard */; };
+		D0CAD92E23670B79005990FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0CAD92D23670B79005990FE /* Assets.xcassets */; };
+		D0CAD93523670B79005990FE /* AudioTest11 WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D0CAD93423670B79005990FE /* AudioTest11 WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D0CAD93A23670B79005990FE /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CAD93923670B79005990FE /* InterfaceController.swift */; };
+		D0CAD93C23670B79005990FE /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CAD93B23670B79005990FE /* ExtensionDelegate.swift */; };
+		D0CAD93E23670B7A005990FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0CAD93D23670B7A005990FE /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0CAD92723670B78005990FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0CAD90923670B76005990FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0CAD92423670B78005990FE;
+			remoteInfo = "AudioTest11 WatchKit App";
+		};
+		D0CAD93623670B79005990FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0CAD90923670B76005990FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0CAD93323670B79005990FE;
+			remoteInfo = "AudioTest11 WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D0CAD94523670B7A005990FE /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D0CAD93523670B79005990FE /* AudioTest11 WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0CAD94923670B7A005990FE /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				D0CAD92623670B78005990FE /* AudioTest11 WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D0CAD91123670B76005990FE /* AudioTest11.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioTest11.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0CAD91423670B76005990FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0CAD91623670B76005990FE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D0CAD91823670B76005990FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D0CAD91B23670B76005990FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0CAD91D23670B78005990FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0CAD92023670B78005990FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0CAD92223670B78005990FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0CAD92523670B78005990FE /* AudioTest11 WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AudioTest11 WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0CAD92B23670B78005990FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		D0CAD92D23670B79005990FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0CAD92F23670B79005990FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0CAD93423670B79005990FE /* AudioTest11 WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "AudioTest11 WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0CAD93923670B79005990FE /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		D0CAD93B23670B79005990FE /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		D0CAD93D23670B7A005990FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0CAD93F23670B7A005990FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0CAD90E23670B76005990FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0CAD93123670B79005990FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0CAD90823670B76005990FE = {
+			isa = PBXGroup;
+			children = (
+				D0CAD91323670B76005990FE /* AudioTest11 */,
+				D0CAD92923670B78005990FE /* AudioTest11 WatchKit App */,
+				D0CAD93823670B79005990FE /* AudioTest11 WatchKit Extension */,
+				D0CAD91223670B76005990FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0CAD91223670B76005990FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0CAD91123670B76005990FE /* AudioTest11.app */,
+				D0CAD92523670B78005990FE /* AudioTest11 WatchKit App.app */,
+				D0CAD93423670B79005990FE /* AudioTest11 WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0CAD91323670B76005990FE /* AudioTest11 */ = {
+			isa = PBXGroup;
+			children = (
+				D0CAD91423670B76005990FE /* AppDelegate.swift */,
+				D0CAD91623670B76005990FE /* SceneDelegate.swift */,
+				D0CAD91823670B76005990FE /* ViewController.swift */,
+				D0CAD91A23670B76005990FE /* Main.storyboard */,
+				D0CAD91D23670B78005990FE /* Assets.xcassets */,
+				D0CAD91F23670B78005990FE /* LaunchScreen.storyboard */,
+				D0CAD92223670B78005990FE /* Info.plist */,
+			);
+			path = AudioTest11;
+			sourceTree = "<group>";
+		};
+		D0CAD92923670B78005990FE /* AudioTest11 WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				D0CAD92A23670B78005990FE /* Interface.storyboard */,
+				D0CAD92D23670B79005990FE /* Assets.xcassets */,
+				D0CAD92F23670B79005990FE /* Info.plist */,
+			);
+			path = "AudioTest11 WatchKit App";
+			sourceTree = "<group>";
+		};
+		D0CAD93823670B79005990FE /* AudioTest11 WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D0CAD93923670B79005990FE /* InterfaceController.swift */,
+				D0CAD93B23670B79005990FE /* ExtensionDelegate.swift */,
+				D0CAD93D23670B7A005990FE /* Assets.xcassets */,
+				D0CAD93F23670B7A005990FE /* Info.plist */,
+			);
+			path = "AudioTest11 WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0CAD91023670B76005990FE /* AudioTest11 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0CAD94A23670B7A005990FE /* Build configuration list for PBXNativeTarget "AudioTest11" */;
+			buildPhases = (
+				D0CAD90D23670B76005990FE /* Sources */,
+				D0CAD90E23670B76005990FE /* Frameworks */,
+				D0CAD90F23670B76005990FE /* Resources */,
+				D0CAD94923670B7A005990FE /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0CAD92823670B78005990FE /* PBXTargetDependency */,
+			);
+			name = AudioTest11;
+			productName = AudioTest11;
+			productReference = D0CAD91123670B76005990FE /* AudioTest11.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0CAD92423670B78005990FE /* AudioTest11 WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0CAD94623670B7A005990FE /* Build configuration list for PBXNativeTarget "AudioTest11 WatchKit App" */;
+			buildPhases = (
+				D0CAD92323670B78005990FE /* Resources */,
+				D0CAD94523670B7A005990FE /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0CAD93723670B79005990FE /* PBXTargetDependency */,
+			);
+			name = "AudioTest11 WatchKit App";
+			productName = "AudioTest11 WatchKit App";
+			productReference = D0CAD92523670B78005990FE /* AudioTest11 WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		D0CAD93323670B79005990FE /* AudioTest11 WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0CAD94223670B7A005990FE /* Build configuration list for PBXNativeTarget "AudioTest11 WatchKit Extension" */;
+			buildPhases = (
+				D0CAD93023670B79005990FE /* Sources */,
+				D0CAD93123670B79005990FE /* Frameworks */,
+				D0CAD93223670B79005990FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AudioTest11 WatchKit Extension";
+			productName = "AudioTest11 WatchKit Extension";
+			productReference = D0CAD93423670B79005990FE /* AudioTest11 WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0CAD90923670B76005990FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = HealthMode;
+				TargetAttributes = {
+					D0CAD91023670B76005990FE = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					D0CAD92423670B78005990FE = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					D0CAD93323670B79005990FE = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = D0CAD90C23670B76005990FE /* Build configuration list for PBXProject "AudioTest11" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0CAD90823670B76005990FE;
+			productRefGroup = D0CAD91223670B76005990FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0CAD91023670B76005990FE /* AudioTest11 */,
+				D0CAD92423670B78005990FE /* AudioTest11 WatchKit App */,
+				D0CAD93323670B79005990FE /* AudioTest11 WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0CAD90F23670B76005990FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0CAD92123670B78005990FE /* LaunchScreen.storyboard in Resources */,
+				D0CAD91E23670B78005990FE /* Assets.xcassets in Resources */,
+				D0CAD91C23670B76005990FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0CAD92323670B78005990FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0CAD92E23670B79005990FE /* Assets.xcassets in Resources */,
+				D0CAD92C23670B78005990FE /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0CAD93223670B79005990FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0CAD93E23670B7A005990FE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0CAD90D23670B76005990FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0CAD91923670B76005990FE /* ViewController.swift in Sources */,
+				D0CAD91523670B76005990FE /* AppDelegate.swift in Sources */,
+				D0CAD91723670B76005990FE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0CAD93023670B79005990FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0CAD93C23670B79005990FE /* ExtensionDelegate.swift in Sources */,
+				D0CAD93A23670B79005990FE /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0CAD92823670B78005990FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0CAD92423670B78005990FE /* AudioTest11 WatchKit App */;
+			targetProxy = D0CAD92723670B78005990FE /* PBXContainerItemProxy */;
+		};
+		D0CAD93723670B79005990FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0CAD93323670B79005990FE /* AudioTest11 WatchKit Extension */;
+			targetProxy = D0CAD93623670B79005990FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0CAD91A23670B76005990FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0CAD91B23670B76005990FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D0CAD91F23670B78005990FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0CAD92023670B78005990FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D0CAD92A23670B78005990FE /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0CAD92B23670B78005990FE /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0CAD94023670B7A005990FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0CAD94123670B7A005990FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0CAD94323670B7A005990FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RVKJ8AXBW;
+				INFOPLIST_FILE = "AudioTest11 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.healthmode.AudioTest11.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.3;
+				__WKEXTENSIONMAIN_LEGACY_TARGET_5_3 = legacy;
+			};
+			name = Debug;
+		};
+		D0CAD94423670B7A005990FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RVKJ8AXBW;
+				INFOPLIST_FILE = "AudioTest11 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.healthmode.AudioTest11.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.3;
+				__WKEXTENSIONMAIN_LEGACY_TARGET_5_3 = legacy;
+			};
+			name = Release;
+		};
+		D0CAD94723670B7A005990FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RVKJ8AXBW;
+				IBSC_MODULE = AudioTest11_WatchKit_Extension;
+				INFOPLIST_FILE = "AudioTest11 WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = co.healthmode.AudioTest11.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.3;
+			};
+			name = Debug;
+		};
+		D0CAD94823670B7A005990FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RVKJ8AXBW;
+				IBSC_MODULE = AudioTest11_WatchKit_Extension;
+				INFOPLIST_FILE = "AudioTest11 WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = co.healthmode.AudioTest11.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.3;
+			};
+			name = Release;
+		};
+		D0CAD94B23670B7A005990FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RVKJ8AXBW;
+				INFOPLIST_FILE = AudioTest11/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.healthmode.AudioTest11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D0CAD94C23670B7A005990FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7RVKJ8AXBW;
+				INFOPLIST_FILE = AudioTest11/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = co.healthmode.AudioTest11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0CAD90C23670B76005990FE /* Build configuration list for PBXProject "AudioTest11" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0CAD94023670B7A005990FE /* Debug */,
+				D0CAD94123670B7A005990FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0CAD94223670B7A005990FE /* Build configuration list for PBXNativeTarget "AudioTest11 WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0CAD94323670B7A005990FE /* Debug */,
+				D0CAD94423670B7A005990FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0CAD94623670B7A005990FE /* Build configuration list for PBXNativeTarget "AudioTest11 WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0CAD94723670B7A005990FE /* Debug */,
+				D0CAD94823670B7A005990FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0CAD94A23670B7A005990FE /* Build configuration list for PBXNativeTarget "AudioTest11" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0CAD94B23670B7A005990FE /* Debug */,
+				D0CAD94C23670B7A005990FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0CAD90923670B76005990FE /* Project object */;
+}

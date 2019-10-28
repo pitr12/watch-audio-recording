@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="15400" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38"/>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="15400"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="AudioTest11_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="1" alignment="left" verticalAlignment="bottom" id="yoH-wZ-0jM">
+                            <items>
+                                <label alignment="center" text="Recording stopped" id="GJE-kb-R5m">
+                                    <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                                </label>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="Qan-Iw-xrt">
+                            <items>
+                                <button width="1" alignment="left" title="Start recording" id="uMY-Kz-4tm">
+                                    <connections>
+                                        <action selector="recordBtnTapped" destination="AgC-eL-Hgc" id="6ry-XN-znK"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="HWV-Fw-n3G">
+                            <items>
+                                <button width="1" alignment="left" title="Play " id="ggf-bY-TTK">
+                                    <connections>
+                                        <action selector="playBtnTapped" destination="AgC-eL-Hgc" id="ZRs-Nc-aCe"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="infoLabel" destination="GJE-kb-R5m" id="R2G-3l-Psx"/>
+                        <outlet property="recordBtn" destination="uMY-Kz-4tm" id="vTz-Bg-di9"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="34" y="31"/>
+        </scene>
+    </scenes>
+</document>
